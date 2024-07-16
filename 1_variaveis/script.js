@@ -50,20 +50,83 @@
 
 
 
-function descubra(num) {
-    if (num % 2 === 1 || num % 2 === -1) {
-        console.log(`O número ${num} é ímpar`);
-    } else {
-        console.log(`O número ${num} é par`);
-    }
+// function descubra(num) {
+//     if (num % 2 === 1 || num % 2 === -1) {
+//         console.log(`O número ${num} é ímpar`);
+//     } else {
+//         console.log(`O número ${num} é par`);
+//     }
 
-    if (num >= 0) {
-        console.log(`O número ${num} é positivo`);
-    } else {
-        console.log(`O número ${num} é negativo`);
-    }
-}
+//     if (num >= 0) {
+//         console.log(`O número ${num} é positivo`);
+//     } else {
+//         console.log(`O número ${num} é negativo`);
+//     }
+// }
 
-const num = parseFloat(prompt("Digite um número"));
+// const num = parseFloat(prompt("Digite um número"));
 
-descubra(num);
+// descubra(num);
+
+//3 - Faça um algoritmo que leia dois valores inteiros A e B, se os valores de A e B forem iguais, deverá somar os dois valores, caso contrário devera multiplicar A por B. Ao final de qualquer um dos cálculos deve-se atribuir o resultado a uma variável C e imprimir seu valor na tela.
+
+// const a = parseFloat(prompt("Digite o valor de A:"));
+// const b = parseFloat(prompt("Digite o valor de B:"));
+// 2
+// if(a === b) {
+//     let c = a + b;
+//     console.log(`a variavel A: ${a} é igual a variavel B: ${b} e a soma deles é: ${c}`)
+// } else {
+//     let c = a * b
+//     console.log(`a variavel A: ${a} é diferente da variavel B: ${b} e o resultado da multiplicação deles é: ${c}`)
+// }
+
+
+// em função
+
+// function somaMultiplica (a,b) {
+//     if(a === b) {
+//         let c = a + b;
+//         console.log(`a variavel A: ${a} é igual a variavel B: ${b} e a soma deles é: ${c}`)
+//     } else {
+//         let c = a * b
+//         console.log(`a variavel A: ${a} é diferente da variavel B: ${b} e o resultado da multiplicação deles é: ${c}`)
+//     }
+// }
+
+// const a = parseFloat(prompt("Digite o valor de A:"));
+// const b = parseFloat(prompt("Digite o valor de B:"));
+
+// somaMultiplica(a,b);
+
+
+// com arrow function
+
+// const somaMultiplica = (a, b) => {
+//     if (a === b) {
+//         let c = a + b;
+//         console.log(`A variável A: ${a} é igual à variável B: ${b} e a soma deles é: ${c}`);
+//     } else {
+//         let c = a * b;
+//         console.log(`A variável A: ${a} é diferente da variável B: ${b} e o resultado da multiplicação deles é: ${c}`);
+//     }
+// }
+
+// const a = parseFloat(prompt("Digite o valor de A:"));
+// const b = parseFloat(prompt("Digite o valor de B:"));
+
+// somaMultiplica(a, b);
+
+//4 - Faça um algoritmo que receba um número inteiro e imprima na tela o seu antecessor e o seu sucessor.
+
+// const a = parseFloat(prompt("Digite um numero:"));
+
+// console.log(a + 1)
+// console.log(a - 1)
+
+// 5 - Faça um algoritmo que leia o valor do salário mínimo e o valor do salário de um usuário, calcule quantos salários mínimos esse 
+
+// const salario = parseFloat(prompt("Quanto voce recebe:"));
+// const s_minimo = salario / 1412
+
+// console.log(`Se você recebe R$${salario}, você recebe o equivalente a ${s_minimo} salários minimos.`)
