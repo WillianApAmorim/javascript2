@@ -130,3 +130,26 @@
 // const s_minimo = salario / 1412
 
 // console.log(`Se você recebe R$${salario}, você recebe o equivalente a ${s_minimo} salários minimos.`)
+
+// 6 - Faça um algoritmo que leia um valor qualquer e imprima na tela com um reajuste de 5%.
+
+
+// const reajuste = (a) => {
+//     let b = a + (5 % a)
+//     console.log(b)
+// }
+
+// const a =  100;
+
+// reajuste(a)
+
+// 7 - Faça um algoritmo que leia dois valores booleanos (lógicos) e determine se ambos são VERDADEIRO ou FALSO.
+
+// const a = true
+// const b = false
+
+// if(a & b === true) {
+//     console.log(true)
+// } else {
+//     console.log(false)
+// }
