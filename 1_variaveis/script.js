@@ -153,3 +153,57 @@
 // } else {
 //     console.log(false)
 // }
+
+// 8 - Faça um algoritmo que leia três valores inteiros diferentes e imprima na tela os valores em ordem decrescente.
+
+// const a = parseInt(prompt("Digite o valor de A:"));
+// const b = parseInt(prompt("Digite o valor de B:"));
+// const c = parseInt(prompt("Digite o valor de C:"));
+
+// const valores = [a, b, c];
+// valores.sort((x, y) => y - x);
+
+// console.log(`primeiro: ${valores[0]}, segundo: ${valores[1]}, terceiro: ${valores[2]}`);
+
+
+// 9 - Faça um algoritmo que calcule o IMC (Índice de Massa Corporal) de uma pessoa, leia o seu peso e sua altura e imprima na tela sua condição de acordo com a tabela abaixo:
+
+//Fórmula do IMC = peso / (altura) ²
+
+// Tabela Condições IMC
+
+  
+
+//  Abaixo de 18,5   | Abaixo do peso          
+//  Entre 18,6 e 24,9 | Peso ideal (parabéns)  
+//  Entre 25,0 e 29,9 | Levemente acima do peso
+//  Entre 30,0 e 34,9 | Obesidade grau I 
+//  Entre 35,0 e 39,9 | Obesidade grau II (severa)
+//  Maior ou igual a 40 | Obesidade grau III (mórbida)
+
+// const calculaImc = (alturaM, peso) => {
+//     const imc = peso / (alturaM * alturaM)
+
+//     console.log(`Seu IMC é: ${imc.toFixed(2)}`)
+
+//     if (imc < 18.5) {
+//         console.log("Abaixo do peso");
+//     } else if (imc >= 18.5 && imc <= 24.9) {
+//         console.log("Peso ideal (parabéns)");
+//     } else if (imc >= 25.0 && imc <= 29.9) {
+//         console.log("Levemente acima do peso");
+//     } else if (imc >= 30.0 && imc <= 34.9) {
+//         console.log("Obesidade grau I");
+//     } else if (imc >= 35.0 && imc <= 39.9) {
+//         console.log("Obesidade grau II (severa)");
+//     } else {
+//         console.log("Obesidade grau III (mórbida)");
+//     }
+// }
+
+
+// const peso = parseFloat(prompt("Digite seu peso:"));
+// const altura = parseFloat(prompt("Digite sua altura em cm:"));
+// const alturaM = altura / 100; 
+
+// calculaImc(alturaM, peso)
